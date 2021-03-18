@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Asteroids</title>
+    <script
+      src="https://kit.fontawesome.com/6da2e14f43.js"
+      crossorigin="anonymous"
+    ></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Raleway"
+    />
+    <link rel="stylesheet" href="asteroids.css" />
+  </head>
+  <body>
+    <header id="header">
+      <a href="games.html" id="home"><i class="fas fa-home"></i></a>
+      <button id="restart" class="btn btn-primary" onclick="restart()">
+        Restart
+      </button>
+      <div class="score">Score:</div>
+    </header>
+    <canvas class="gamearea" width="1000" height="500"></canvas>
+    <script src="asteroids.js"></script>
+  </body>
+</html>
